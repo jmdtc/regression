@@ -70,8 +70,3 @@ const getLinearRegressionCoeff = (xValues, yValues) => {
   const lineCoef = findLineCoef(leastSquaresLine[0], leastSquaresLine[1])
   return lineCoef
 }
-
-const arr = [1,2,3,4,5,6,7]
-const arr2 = [5, 8.4, 8.8, 10, 13.7, 15.1, 16.8]
-const result = getLinearRegressionCoeff(arr, arr2)
-console.log(result)
